@@ -47,4 +47,3 @@ class ContactsPage(Base):
             assert rows[1][0], "Страна не может быть пустой"
             assert rows[1][1], "Название компании не может быть пустым"
             assert rows[1][2], "Адрес должен быть заполнен"
-        print("Done")
