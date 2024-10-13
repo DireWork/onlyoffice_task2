@@ -28,4 +28,4 @@ jobs:
         export PYTHONPATH=$PYTHONPATH:$(pwd)
 
     - name: Run tests
-      run: pytest tests/test_parser.py
+      run: python -m pytest -s -v tests/test_parser.py
